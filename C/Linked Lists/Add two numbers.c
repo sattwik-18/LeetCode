@@ -1,3 +1,17 @@
+/*
+LeetCode #2 - Add Two Numbers
+
+Topic: Linked List
+
+Approach:
+- Traverse both lists simultaneously
+- Add corresponding digits with carry
+- Create result list on the fly
+
+Time Complexity: O(max(n,m))
+Space Complexity: O(max(n,m))
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
