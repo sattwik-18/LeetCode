@@ -1,3 +1,17 @@
+/*
+LeetCode #7 - Reverse Integer
+
+Topic: Math, Digit Manipulation
+
+Approach:
+- Extract the last digit using modulo (%)
+- Remove the last digit using integer division (/)
+- Build the reversed number digit by digit
+- Check for 32-bit integer overflow before updating the result
+
+Time Complexity: O(log₁₀ n)
+Space Complexity: O(1)
+*/
 #include<stdio.h>
 #include<limits.h>
 int reverse(int x){
